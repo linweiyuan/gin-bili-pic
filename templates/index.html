@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B 站视频封面下载</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+         }
+
+        #cover {
+            background: #567;
+            background-size: cover;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        #cover-caption {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<section id="cover">
+    <div id="cover-caption">
+        <div id="container" class="container">
+            <div class="row text-white">
+                <div class="col-sm-6 offset-sm-3 text-center">
+                    <h1 class="display-6">(゜-゜)つロ 干杯~</h1>
+                    <div class="info-form">
+                        <form method="post" class="form-inlin justify-content-center">
+                            <div class="form-group">
+                                <input type="text" name="bv" class="form-control" placeholder="BV号"
+                                       required>
+<!--                                <input type="text" name="width" class="form-control" placeholder="自定义宽">-->
+<!--                                <input type="text" name="height" class="form-control" placeholder="自定义高">-->
+                            </div>
+                            <button type="submit" class="btn btn-success">下载</button>
+                        </form>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
